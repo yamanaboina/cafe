@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head> 
+  <body>
+    <section class="fnavbar">
+      <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo" style="margin-left: 10px;
+           text-shadow: 2px 2px #af7d43;
+          ">CafeKing</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#" onclick=toggleModal();>Home</a></li>
+            <li><a href="#" onclick=toggleModal();>About Us</a></li>
+            <li><a href="#" onclick=toggleModal();>Surprise!</a></li>
+            <li><a href="#" onclick=toggleModal();>Contact</a></li>
+          </ul>
+        </div>
+       
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#" onclick=toggleModal();>Sass</a></li>
+        <li><a href="#" onclick=toggleModal();>Components</a></li>
+        <li><a href="#" onclick=toggleModal();>JavaScript</a></li>
+      </ul>
+    </section>
+    <section class="fslider">
+         <div class="slider">
+             <ul class="slides">
+               <li>
+                 <img src="c5.jpg" alt="image one" srcset="">
+                 <div class="caption center-align white-text">
+                   <h3>Cakeking - Quality</h3>
+                   <h5 class="light text-lighten-3">We serve one of the coffee around</h5>
+                 </div>
+               </li>
+               <li>
+                <img src="c4.jpg" alt="image one" srcset="">
+                <div class="caption center-align white-text">
+                  <h3>Cakeking - Quality</h3>
+                  <h5 class="light text-lighten-3">finest coffee</h5>
+                </div>
+              </li>
+              <li>
+                <img src="c7.jpg" alt="image one" srcset="">
+                <div class="caption center-align white-text">
+                  <h3>Cakeking - Quality</h3>
+                  <h5 class="light text-lighten-3">finest coffee</h5>
+                </div>
+              </li>
+             </ul>
+         </div>
+    </section>
+    <section class="fcards">
+       <div class="row" style="padding-left:50px;padding-right:50px">
+         <div class="col s12 m12 l4" style="padding:50px 5px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="c8.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"><h4>Macchiato</h4><i class="material-icons right">more_vert</i></span>
+              <p><a href="#">Rs:200</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><h4>Macchiato</h4><i class="material-icons right">close</i></span>
+              <p>Many drinks have been called by this name, but this (seemingly simple) traditional Italian recipe is the real deal. The word "macchiato" actually means marked</p>
+            </div>
+          </div>
+                    
+        </div>
+         <div class="col s12 m12 l4" style="padding:50px 5px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="c9.jpg" style="height: 322px;">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4" style="text-weight: 45px;"><h4>Latte</h4><i class="material-icons right">more_vert</i></span>
+              <p><a href="#">Rs:100</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><h4>Latte</h4><i class="material-icons right">close</i></span>
+              <p>This is for all fellow coffee drinkers. I love lattes but buying them can be pricey. So here's a recipe so you can make your own.</p>
+            
+            </div>
+          </div></div>
+         <div class="col s12 m12 l4" style="padding:50px 5px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="c10.jpg" style="height: 322px;">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"><h4>Coffeebar Chai</h4><i class="material-icons right">more_vert</i></span>
+              <p><a href="#">Rs:200</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><h4>Coffeebar Chai</h4><i class="material-icons right">close</i></span>
+              <p>A delicious Chai tea that is easy to make at home. Serve hot or over ice.
+
+              </p>
+               <ul>
+                 <h1>     
+          
+            </div>
+          </div></div>
+
+      </div>
+
+    </section>
+   
+    <section class="fparallax">
+      <div class="parallax-container">
+        <div class="parallax"><img src="c6.jpg"></div>
+      </div>
+    </section>
+
+    <section class="describe">
+        <div class="class white center">
+            <h2 class="header">CafeKing-Ultimate quality cofee</h2>
+            <div class="row container center">
+               <div class="col center l8 s12 move" style="font-size: 25px;">
+                               The word "coffee" entered the English language in 1582 via the Dutch koffie,
+                                borrowed from the Ottoman Turkish kahve, borrowed in turn from the Arabic قهوة qahwah.
+                                The Arabic word qahwah was traditionally held to refer to a type of wine whose etymology
+                                is given by Arab lexicographers as deriving from the verb قَهِيَ qahiya, "to lack hunger",
+                                in reference to the drink's reputation as an appetite suppressant.
+                                The term "coffee pot" dates from 1705.The expression "coffee break" was first attested in 1952.
+               </div>
+               <div class="col center l4 s12">
+                 <img src="c11.jpg" 
+                 style="object-fit:contain ;
+               margin-top: 80px;
+                 broder-radius:20px ;" 
+                 height="300" 
+                 width="auto" 
+                 alt="">
+               </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="fabout">
+        <div class="section white center">
+           <div class="row container">
+               <h2 class="header">About Us</h2>
+                 <p class="grey-text text-darken-3">
+                  <hr class="headings">
+                   <div class="100" style="font-size:25px;">The Ramani coffee is open in Southchase! We are excited to introduce our Coffee Shop & Cafe. If you crave great coffee, you’ll love knowing that we provide a real alternative to chains with handcrafted coffee and espresso drinks, a full tea bar, and real food options. </div>.</div>
+                     </p>
+                     <a href="#" 
+                     style="background-color: rgb(46, 207, 113) !important;
+                     border-radius: 20px;"
+                     class="btn waves-effect waves-light">Read More</a>
+           </div>
+        </div>
+    </section>
+  
+    <section class="fservices">
+      <div class="row" style="padding-left: 50px;padding-right: 50px;
+      margin-top:30px;
+      ">
+         <div class="col s12 l4 center" style="50px 50px">
+         <i class="large material-icons icon-coff">local_dining</i>
+         <h5 class="header">Variety of coffee</h5>
+        </div>
+        <div class="col s12 l4 center" style="50px 50px">
+          <i class="large material-icons icon-coff">watch_later</i>
+          <h5 class="header">Variety of coffee</h5></div>
+        <div class="col s12 l4 center" style="50px 50px">
+          <i class="large material-icons icon-coff">favorite</i>
+          <h5 class="header">Variety of coffee</h5></div> 
+      </div>
+      
+    </section>
+  
+   <section class="footer">
+     <footer class="footer-one">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 l6">
+               <h4 class="white-text">Contact us</h4>
+               <p class="grey-text">
+                 Sanths nagar,Chennai,India.
+               </p>
+               <p class="grey-text">
+                 +9934476309
+               </p>
+            </div>
+            <div class="col s12 l6">
+              <h4 class="white-text">Social Media</h4>
+              <ul>
+                <li><a href="#" class="grey-text">Facebook</a></li>
+                <li class="grey-text">Instagram</li>
+              </ul>
+
+            </div>
+
+          </div>
+           
+        </div>
+     </footer>
+   </section>
+
+  <section class="infomodel">
+    
+    <div id="modal3" class="modal">
+         <div class="modal-contents">
+             <h4 id="info-modal-heading">Link Disable</h4>
+              <p id="info-modal-content">Sorry! All links are disable</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close waves-effect btn-flat"></a>
+            </div>
+
+    </div>
+  </section>
+
+
+    </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>          
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="scripts.js"></script>
+</html>
